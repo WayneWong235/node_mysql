@@ -50,7 +50,10 @@ Start built-in web server:
 
 Go to http://127.0.0.1:8080/ in your browser
 
-REST API call:
+---------
+REST API
+---------
+
 GET http://localhost:8080/fetchStudents?class=<classname> for students in classname
 GET http://localhost:8080/fetchStudents?id=<student_id> for student detail
 POST http://localhost:8080/student for INSERT student detail with json
