@@ -54,11 +54,13 @@ Go to http://127.0.0.1:8080/ in your browser
 REST API
 ---------
 
-GET http://localhost:8080/fetchStudents?class=<classname> for students in classname
-GET http://localhost:8080/fetchStudents?id=<student_id> for student detail
-POST http://localhost:8080/student for INSERT student detail with json
-PUT http://localhost:8080/student for UPDATE student detail with json
-DELETE http://localhost:8080/student for DELETE student detail with json
+.. code-block:: bash
+
+    GET http://localhost:8080/fetchStudents?class=<classname> for students in classname
+    GET http://localhost:8080/fetchStudents?id=<student_id> for student detail
+    POST http://localhost:8080/student for INSERT student detail with json
+    PUT http://localhost:8080/student for UPDATE student detail with json
+    DELETE http://localhost:8080/student for DELETE student detail with json
 
 ============
 Contribution
